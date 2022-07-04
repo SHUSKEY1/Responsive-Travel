@@ -1,0 +1,27 @@
+/*Sophia Huskey
+  Styles page
+*/
+
+body{
+  background-image: url("background.jpg");
+}
+
+h1{
+  color: white;
+  font-style: italic;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+p{
+  color: white;
+}
+
+img{
+  width: 450px;
+  height:auto;
+  margin: 0 0 10px 0;
+  float: none;
+
+}
