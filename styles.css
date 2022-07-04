@@ -11,7 +11,12 @@ h1{
   font-style: italic;
   font-family: sans-serif;
   text-align: center;
+}
 
+h2{
+  color: white;
+  text-align: center;
+  font-size: 20px;
 }
 
 p{
@@ -24,4 +29,18 @@ img{
   margin: 0 0 10px 0;
   float: none;
 
+}
+
+ol{
+  color: white;
+  text-align: center;
+}
+
+.clearfix:after {content: ""; display: table;clear: both;}
+@media screen and (min-width:1453px) {
+
+  .Group1, .Group2, .Group3{
+    Width: 30%;
+    float: left;
+  }
 }
