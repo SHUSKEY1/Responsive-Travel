@@ -6,6 +6,11 @@ body{
   background-image: url("background.jpg");
 }
 
+.cols{
+  width: 100%;
+  padding: 50px 50px 10px 10px;
+}
+
 h1{
   color: white;
   font-style: italic;
@@ -30,6 +35,9 @@ img{
   float: none;
 
 }
+.Image2{
+  display: none;
+}
 
 ol{
   color: white;
@@ -37,10 +45,30 @@ ol{
 }
 
 .clearfix:after {content: ""; display: table;clear: both;}
-@media screen and (min-width:1453px) {
-
-  .Group1, .Group2, .Group3{
-    Width: 30%;
-    float: left;
+@media screen and (min-width:1216px) {
+  .col1{
+    width: 100%;
+    margin-left: 5%;
+    text-align: center;
   }
+
+  .col2, .col3{
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width:1575px) {
+
+.col1, .col2, .col3{
+  float: left;
+  width: 25%;
+}
+.Image2{
+  display: block;
+}
+
 }
